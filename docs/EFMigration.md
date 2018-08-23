@@ -13,7 +13,7 @@ Update-Database -context AdminDbContext
 Install following NuGet package:
 
 ```
-Npgsql.EntityFrameworkCore.PostgreSQL.Design
+Npgsql.EntityFrameworkCore.PostgreSQL
 ```
 
 Find `RegisterDbContexts` function in `Helpers\StartupHelpers.cs`
